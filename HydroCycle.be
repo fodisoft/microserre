@@ -107,7 +107,7 @@ class MyHydroMethods
                   self.setPumpON(True)                  
               elif persist.PumpEnable=="ON"
                   persist.PumpEnable="OFF"
-                  self.setPumpOn(False)
+                  self.setPumpON(False)
               else
                   persist.PumpEnable="Enable"
               end
